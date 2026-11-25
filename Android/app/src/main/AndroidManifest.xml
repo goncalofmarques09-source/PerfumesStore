@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".PerfumesActivity"
+            android:name=".modelo.Perfume"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>

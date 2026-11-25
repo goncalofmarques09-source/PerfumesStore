@@ -1,4 +1,4 @@
-package com.example.perfumestore;
+package com.example.perfumestore.modelo;
 
 import android.os.Bundle;
 
@@ -8,7 +8,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class PerfumesActivity extends AppCompatActivity {
+import com.example.perfumestore.R;
+
+public class Perfume extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

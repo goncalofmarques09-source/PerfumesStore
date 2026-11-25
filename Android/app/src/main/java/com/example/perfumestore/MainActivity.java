@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Button btnPerfumes = findViewById(R.id.btnPerfumes);
 
         btnPerfumes.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, PerfumesActivity.class);
+            Intent intent = new Intent(MainActivity.this, modelo.Perfume.class);
             startActivity(intent);
         });
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
